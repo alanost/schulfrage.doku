@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  p {
+    @apply font-sans text-paragraph-body1 font-normal;
+  }
+  h1 {
+    @apply font-sans text-h1-heading font-bold leading-heading;
+  }
+  h2 {
+    @apply font-sans text-h2-heading font-medium leading-heading;
+  }
+  h3 {
+    @apply font-sans text-h3-heading font-medium leading-heading;
+  }
+  h4 {
+    @apply font-sans text-h4-heading font-medium leading-heading;
+  }
+}
+
+@layer components {
+  @screen sm {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @screen md {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @screen lg {
+    html {
+      font-size: 18px;
+    }
+  }
+
+  @screen xl {
+    html {
+      font-size: 18px;
+    }
+  }
+}
+
+body {
+  background-color: #fffcf7;
+}
+
+.text-body2 {
+  @apply text-paragraph-body2;
+}

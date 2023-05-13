@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schulfrage.de - Dokumentation</title>
+    <link rel="stylesheet" href="/css/output.css" />
+    <script type="module" src="./main.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffb300" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffb300" />
+    <link rel="canonical" href="https://schulfrage.de/documentation.html" />
+  </head>
+  <body>
+    <div class="flex w-full flex-col p-4 md:p-9">
+      <!-- Hero -->
+      <header
+        class="relative mx-auto h-[200px] w-full max-w-[1400px] rounded-xl bg-[#FFB300] p-4 md:p-7 lg:flex lg:items-center"
+      >
+        <!-- Logo -->
+
+        <div class="absolute left-4 top-4">
+          <a href="/">
+            <img width="113px" height="22px" src="./assets/logo.png" class="h-[22px] w-[113px]" alt="Logo" />
+          </a>
+        </div>
+
+        <!-- H1 -->
+        <div class="flex h-full flex-col justify-center">
+          <h1>Projekt&shy;dokumentation</h1>
+        </div>
+      </header>
+      <!-- Hero End -->
+
+      <!-- Documentation -->
+      <div class="mx-auto flex w-full max-w-[1400px] flex-col justify-center gap-4 hyphens-auto p-4 md:p-7">
+        <div>
+          <a href="/" class="underline hover:text-[#FFB300]">&larr; Zurück zur Startseite</a>
+        </div>
+        <h2>Inhaltsverzeichnis</h2>
+        <div class="border-l-2 border-[#FFB300] pl-4">
+          <ol class="list-inside list-decimal space-y-2">
+            <li>
+              <a href="#gemeinsam-lernen-die-vision-hinter-schulfrage-de" class="hover:underline">
+                Gemeinsam Lernen: Die Vision hinter Schulfrage.de
+              </a>
+            </li>
+            <li>
+              <a href="#die-entwicklung-von-schulfrage-de-ein-ueberblick" class="hover:underline">
+                Die Entwicklung von Schulfrage.de: Ein Überblick
+              </a>
+            </li>
+            <li>
+              <a href="#die-untersuetzer-von-schulfrage-de-ehrenamtliche-und-organisationen" class="hover:underline">
+                Die Unterstützer von Schulfrage.de: Ehrenamtliche und Organisationen
+              </a>
+            </li>
+            <li>
+              <a href="#projektmitglieder" class="hover:underline">Projektmitglieder</a>
+            </li>
+            <li>
+              <a href="#technische-umsetzung-des-projekts" class="hover:underline">Technische Umsetzung des Projekts</a>
+            </li>
+            <li>
+              <a href="#gemeinsam-wachsen-die-herausforderungen-des-projekts" class="hover:underline"
+                >Gemeinsam Wachsen: Die Herausforderungen des Projekts</a
+              >
+            </li>
+            <li>
+              <a href="#erkenntnisse-und-erfahrungen-aus-dem-projekt" class="hover:underline"
+                >Erkenntnisse und Erfahrungen aus dem Projekt</a
+              >
+            </li>
+            <li>
+              <a href="#ein-grossartiges-erlebnis-unser-fazit" class="hover:underline"
+                >Ein großartiges Erlebnis: Unser Fazit</a
+              >
+            </li>
+          </ol>
+        </div>
+        <h2 id="gemeinsam-lernen-die-vision-hinter-schulfrage-de">Gemeinsam Lernen: Die Vision hinter Schulfrage.de</h2>
+        <p>
+          Es ist kein Geheimnis, dass Schülerinnen und Schüler sich gerne gegenseitig helfen, wenn sie Probleme beim
+          Verstehen des Schulstoffs haben. Oftmals ist man zu schüchtern, um Lehrerinnen und Lehrer zu fragen – sei es
+          aus Angst, vor der Klasse oder dem Lehrer als &quot;die/der schon wieder&quot; dazustehen oder Ähnliches.
+          Daher fragt man im besten Fall Freunde oder Geschwister. Sie kennen das System Schule und können sich oft gut
+          mit der Frage identifizieren und diese aus Sicht eines Schülers beantworten. Schulfrage.de ist eine Plattform,
+          die genau so eine Community für alle Schülerinnen und Schüler zugänglich macht.
+        </p>
+        <p>
+          Unsere Vision ist es, gegenseitige Hilfe nicht nur im privaten Bereich zu ermöglichen, sondern auch
+          schulübergreifend. Schülerinnen und Schüler können unabhängig vom Ort und der Schulform die Möglichkeit
+          nutzen, sich als Community zu begreifen. Dabei legen wir nicht nur Wert auf die Beantwortung von Fragen,
+          sondern auch auf Zusammenfassungen, Quizze oder Ähnliches. Allgemein soll das Lernen mit Spaß und
+          gegenseitiger Unterstützung erleichtert werden. Zudem können sich Schülerinnen und Schüler mithilfe von
+          Tafelbildern inspirieren oder diese zum Lernen nutzen. Dank der Apps im App Store und Google Play Store ist
+          auch mobiler Zugriff auf unser Forum möglich. So entsteht gemäß unseres Slogans ein Wissenspool:
+          &quot;Hausaufgaben, Facharbeiten, Referate und dir fehlt die zündende Idee? Frag deine Schul-Community:
+          Schulfrage.de!&quot;
+        </p>
+        <h2 class="mt-2" id="die-entwicklung-von-schulfrage-de-ein-ueberblick">
+          Die Entwicklung von Schulfrage.de: Ein Überblick
+        </h2>
+        <p>
+          Schulfrage.de ist eine Plattform, die Schülerinnen und Schülern von der Grundschule bis zur Sekundarstufe II
+          ermöglicht, Fragen zu stellen, zu beantworten, Zusammenfassungen hochzuladen oder aufgabenbezogene Quizze zu
+          erstellen. Dabei werden alle denkbaren Schulfächer abgedeckt – von Mathematik und Naturwissenschaften bis hin
+          zu Deutsch, Fremdsprachen und Kunst. Die Plattform soll als Treffpunkt für Fragende und Antwortende dienen.
+          Für die Beantwortung der Fragen wird eine Gruppe von Lernhelferinnen und Lernhelfern benötigt, die sich in den
+          jeweiligen Fachgebieten auskennen. Diese Gruppe ist Teil der Community. Der Austausch für die Beantwortung der
+          Fragen findet über Chat-Gruppen, wie zum Beispiel bei WhatsApp, statt.
+        </p>
+        <p>
+          Ursprünglich sollte die Plattform dazu dienen, alte Tafelbilder hochzuladen und so eine Art
+          &quot;Wikipedia&quot; von Schulheftern entstehen zu lassen. Aufgrund datenschutz- und urheberrechtlicher
+          Bedenken entwickelten wir die Idee einer Schul-Community weiter. Am 21. Oktober 2021 entstand so
+          Schulfrage.de.
+        </p>
+        <p>
+          In der Vergangenheit wurde wöchentlich ein Beitrag auf Instagram gepostet, um den Inhalt und Nutzen der
+          Plattform bekannt zu machen. Zum Zeitpunkt dieser Dokumentation gibt es unter @schulfrage.de 76 Beiträge und
+          156 Follower. Der erfolgreichste Beitrag erreichte über 100 Likes.
+        </p>
+        <p>
+          Neben der Website wurde Schulfrage.de auch als App im Google Play Store, Apple-App Store und Microsoft Store
+          veröffentlicht, um direkt auf den Endgeräten der Schülerinnen und Schüler präsent zu sein. Die
+          Veröffentlichungen erfolgten Ende 2021. Zum Zeitpunkt dieser Dokumentation wurden die mobilen Applikationen
+          jedoch eingestellt.
+        </p>
+        <p>
+          Um Schülerinnen und Schüler direkt anzusprechen, gingen wir Kooperationen mit dem
+          Carl-Friedrich-Gauß-Gymnasium und der Gesamtschule Talsand in Schwedt/Oder ein.
+        </p>
+        <p>
+          Für finanzielle Unterstützung bewarben wir uns im Juni 2022 beim Kinder- und Jugendbudget des Kinder- und
+          Jugendbeirats und erhielten die maximale Summe von 500,00 EUR zur Unterstützung unserer Arbeit.
+        </p>
+        <p>
+          Als dritte Partnerschule kam die Dreiklang Oberschule Schwedt/Oder hinzu. Das Onboarding fand im Zeitraum von
+          Juli bis Dezember 2022 statt.
+        </p>
+        <p>
+          Aufgrund von fehlender Zeit durch Gründe, die in den folgenden Absätzen erläutert werden, mussten wir die
+          schwere Entscheidung treffen, das Projekt ab Anfang März 2023 einzustellen.
+        </p>
+        <h2 id="die-untersuetzer-von-schulfrage-de-ehrenamtliche-und-organisationen" class="mt-2">
+          Die Unterstützer von Schulfrage.de: Ehrenamtliche und Organisationen
+        </h2>
+        <p>
+          <strong>Sven Ketel</strong> – Als Alan und Thao Vy die ersten Ideen für eine Community-Plattform entwickelten,
+          war Sven Ketel von der Talsandschule aufgrund seines fachlichen Hintergrunds und persönlichen Engagements der
+          erste Ansprechpartner. Er unterstützte den Zugang zu Schulleitungen und gab wertvolle Ratschläge. Sven öffnete
+          viele Türen, unter anderem auch zu kobra.net.
+        </p>
+        <p>
+          <strong>kobra.net</strong> – Die Kooperation in Brandenburg ist ein gemeinnütziger Verbund von Projekten im
+          Land Brandenburg, die sich mit pädagogischer Schulentwicklung, Schulöffnung und Zusammenarbeit mit
+          außerschulischen Partnern beschäftigen. kobra.net vernetzte Schulfrage.de mit einem juristischen
+          Beratungsangebot, das Thao Vy und Alan für viele rechtliche Aspekte beim Betrieb einer Onlineplattform
+          sensibilisierte.
+        </p>
+        <p>
+          <strong>Talsandschule Schwedt</strong> – Durch Sven Ketel erhielt Schulfrage.de Zugang zur Talsandschule und
+          deren Schülerschaft.
+        </p>
+        <p>
+          <strong>Carl-Friedrich-Gauß-Gymnasium Schwedt/Oder</strong> – Thao Vy erreichte einen ähnlichen Zugang durch
+          die Ansprache der Schulleiterin Frau Buchholz am Gauß-Gymnasium Schwedt.
+        </p>
+        <p>
+          <strong>Dirk Messer und der Angermünder Bildungswerk e.V.</strong> – Ebenfalls durch Sven kam Dirk Messer vom
+          Projekt freiRAUM | MINT-Bildung und MakerSpaces in der Uckermark zu Schulfrage.de. Dirk brachte sein Wissen
+          aus zahlreichen IT-Projekten und anderen Erfahrungen ein. Die Geschäftsführung des Angermünder Bildungswerks
+          teilte seine Begeisterung und ermöglichte ihm, im Rahmen des freiRAUM-Projekts beratend mitzuwirken. Er ist
+          Teil der regelmäßigen Treffen.
+        </p>
+        <p>
+          <strong>Stadt Schwedt/Oder</strong> – Der Kinder- und Jugendbeirat der Stadt Schwedt vergibt jährlich ein
+          Projektbudget von 500,00 EUR. Thao Vy und Alan bewarben sich dafür, und nach einer Präsentation wurde
+          Schulfrage.de zu einem der geförderten Projekte im Jahr 2022.
+        </p>
+        <p>
+          <strong>Dreiklang Oberschule Schwedt/Oder</strong> – Kurz vor den Sommerferien 2022 stellten wir das Projekt
+          der Schulleitung der Schwedter Dreiklang Oberschule vor, die bisher noch nicht involviert war. Hier wurde uns
+          viel Vertrauen entgegengebracht, und wir erhielten Handlungsspielraum, um einen Onboarding-Prozess für Schulen
+          zu entwickeln und testen zu können.
+        </p>
+        <p>
+          <strong>Marten Müller</strong>, Unternehmensberater aus Berlin – Marten kam durch Alans Engagement bei der
+          Freiparlamentarischen Allianz (Partei) beratend zum Projekt. Seine Erfahrungen ermöglichten unternehmerisches
+          Denken und zusätzliche Ideen, die das Projekt weiter voranbrachten. Aus seinem Input entstand zum Beispiel die
+          Idee, Quizze anzubieten, die von Lehrern erstellt und von Lernenden gelöst werden können.
+        </p>
+        <h2 class="mt-2" id="projektmitglieder">Projektmitglieder</h2>
+        <div class="flex flex-col gap-8">
+          <div class="flex flex-col items-center gap-8 md:flex-row">
+            <div class="flex flex-shrink-0">
+              <img
+                class="h-[120px] w-[120px] rounded-full"
+                width="120px"
+                height="120px"
+                src="/assets/alan.jpg"
+                alt="Alan Ostaszewski"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 id="alan-ostaszewski">Alan Ostaszewski</h3>
+              <p>
+                Wie Thao Vy besuchte auch ich das Carl-Friedrich-Gauß-Gymnasium in Schwedt/Oder. Schon immer
+                faszinierten mich Informatik, Computer und das Programmieren. Daher fiel mir die Entscheidung für ein
+                Studium nach meinem Abitur leicht. Zum Start des Projektes Schulfrage.de begann ich mein
+                Informatikstudium, das ich mittlerweile im vierten Semester fortsetze. Neben dem Studium arbeite ich in
+                einer kleinen Firma als Full-Stack-Webentwickler. Durch die Erfahrungen im Projektmanagement und der
+                technologischen Betreuung bei Schulfrage.de konnte ich wertvolle Kenntnisse für mein Studium und meine
+                Arbeit sammeln.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-8 md:flex-row">
+            <div class="flex flex-shrink-0">
+              <img
+                class="h-[120px] w-[120px] rounded-full"
+                width="120px"
+                height="120px"
+                src="/assets/thaovy.jpg"
+                alt="Thao Vy Seidel"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 id="thao-vy-seidel">Thao Vy Seidel</h3>
+              <p>
+                Zur Zeit des Projektes besuchte ich die Oberstufe des Carl-Friedrich-Gauß Gymnasium Schwedt/Oder. Damals
+                faszinierten mich Menschen, die eigene Projekte stemmen und aus dem Nichts aufbauen konnten. So entstand
+                mein Interesse an StartUps. Ich war für das Contentmanagement sowie die PR bei Schulfrage.de
+                verantwortlich. Dabei konnte ich Erfahrungen in den Bereichen Grafik-Design und Digital Advertising
+                sammeln. Für mich war es wichtig, dass ein Projekt aus vielfältigen Aufgaben besteht und jede Art von
+                Mensch willkommen ist.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-8 md:flex-row">
+            <div class="flex flex-shrink-0">
+              <img
+                class="h-[120px] w-[120px] rounded-full"
+                width="120px"
+                height="120px"
+                src="/assets/dirk.jpg"
+                alt="Dirk Messer"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 id="dirk-messer">Dirk Messer</h3>
+              <p>
+                Ich bin Informatikkaufmann sowie IT-Ausbilder und habe bereits an vielen IT-Projekten teilgenommen oder
+                diese geleitet. Seit 2010 arbeite ich in meiner Teilselbständigkeit idee42. Von 2015 bis 2021 baute ich
+                ein kleines IT-Team in einem mittelständischen Unternehmen auf und leitete es. Seit November 2021 habe
+                ich das Privileg, im Projekt freiRAUM des Angermünder Bildungswerkes beschäftigt zu sein. Meine Aufgabe
+                besteht darin, MINT-Bildungsangebote in die Uckermark zu tragen. In diesem Kontext stieß ich auf das
+                Projekt Schulfrage.de und konnte meine Erfahrungen einbringen.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-2" id="technische-umsetzung-des-projekts">Technische Umsetzung des Projekts</h2>
+        <p>Die technischen Aspekte des Projekts sind vielfältig und umfassen verschiedene Komponenten.</p>
+        <p>
+          Als Basis verwendeten wir die Open-Source-Community-Software Discourse. Diese eignet sich aufgrund ihrer
+          Kombination aus Forum und Dateisammlung hervorragend für unseren Anwendungsfall. Mithilfe des offiziellen
+          Docker-Images konnten wir die Software ohne großen administrativen Aufwand auf einem Linux-Server betreiben.
+        </p>
+        <p>
+          Für die Entwicklung mobiler und nativer Apps für iOS, Android und Windows nutzten wir PWABuilder.com. Dieser
+          Dienst erstellt automatisch den Quellcode für Apps anhand einer Vorlage und fungiert im Wesentlichen als
+          Browser-Wrapper. Trotz dieser einfachen Funktion bot PWABuilder.com den Benutzern, die eine App bevorzugten,
+          ein ansprechendes Nutzungserlebnis. PWAbuilder.com ist ein Open-Source-Projekt von Microsoft.
+        </p>
+        <p>
+          Als Landing Page verwendeten wir das kostenlose Content Management System WordPress. Es überzeugt durch seine
+          Flexibilität und Benutzerfreundlichkeit und stellt für viele Interessierte den Einstieg in die Gestaltung von
+          Webseiten dar.
+        </p>
+        <p>
+          Um unser Angebot abzurunden, integrierten wir ein Quiz-Tool namens H5P. Es lief auf einer zusätzlichen
+          WordPress-Instanz als Plugin und ermöglichte die Erstellung interaktiver Inhalte. Um eine reibungslose
+          Verbindung zwischen H5P und Discourse zu gewährleisten, entwickelten wir eine eigene Schnittstelle.
+        </p>
+        <p>
+          Für die mühelose Verwaltung all dieser Container und Services setzten wir auf Portainer. Es handelt sich dabei
+          um eine grafische Online-Oberfläche für Docker, die eine effiziente und benutzerfreundliche Verwaltung
+          ermöglicht.
+        </p>
+        <p>Als Hosting-Dienstleister wählten wir Hetzner. Die Gesamtkosten pro Monat beliefen sich auf etwa 12 Euro.</p>
+        <h2 class="mt-2" id="gemeinsam-wachsen-die-herausforderungen-des-projekts">
+          Gemeinsam Wachsen: Die Herausforderungen des Projekts
+        </h2>
+        <p>
+          Während des Projekts wurde uns bewusst, dass wir eine große Verantwortung tragen. Sowohl innerhalb der
+          Community als auch im Team mussten wir lernen, bei unterschiedlichen Meinungen Kompromisse zu schließen. Dabei
+          lernten wir uns besser kennen und erkannten die Notwendigkeit, verständnisvoll miteinander umzugehen. Zudem
+          war es wichtig, eine stetige Dokumentation zu führen, um die zahlreichen Deadlines einhalten zu können. Für
+          effizientes Arbeiten war eine klare Aufgabenteilung erforderlich, um schnellstmöglich Ergebnisse zu erzielen.
+        </p>
+        <p>
+          Die größte Herausforderung bestand jedoch darin, die Schülerinnen und Schüler anzusprechen. Es war uns immer
+          besonders wichtig, auf die Wünsche unserer Community einzugehen. Uns wurde klar, wie bedeutend die Vermittlung
+          unserer Idee und das gezielte Ansprechen der Schülerinnen und Schüler sind. Im Laufe des Projekts sind wir
+          über uns hinausgewachsen und haben unsere Komfortzone verlassen. Wie ein bekannter deutscher YouTuber sagt,
+          beginnt am Ende der Komfortzone nicht nur das Leben, sondern man entwickelt auch das Selbstbewusstsein, für
+          seine eigene Arbeit einzustehen.
+        </p>
+        <h2 class="mt-2" id="erkenntnisse-und-erfahrungen-aus-dem-projekt">
+          Erkenntnisse und Erfahrungen aus dem Projekt
+        </h2>
+        <p>
+          Während des Projekts haben wir gelernt, arbeitsteilig in einem Managementprozess zu arbeiten. Dabei war es von
+          großer Bedeutung, uns als Team zu koordinieren und bei Unstimmigkeiten Kompromisse einzugehen.
+        </p>
+        <p>
+          Die Öffentlichkeitsarbeit wurde von einer kleinen Gruppe durchgeführt, die zum Beispiel für die Betreuung des
+          Instagram-Kanals und die Erstellung von Plakaten verantwortlich war.
+        </p>
+        <p>
+          Neben der Vermarktung übernahmen auch technische Aufgaben wie das Webhosting und die App-Entwicklung fähige
+          Teammitglieder. Es gab drei Gruppen: Vermarktung, Design und Technik. Eine wichtige Erkenntnis war, dass die
+          Arbeitsteilung innerhalb eines Projektes essenziell für dessen Fortschritt ist.
+        </p>
+        <p>
+          Durch die Zusammenarbeit mit Schulen lernten wir, mit Autoritäten zu kommunizieren und Vereinbarungen zu
+          treffen. Wir waren in der Lage, Meetings zu planen, durchzuführen und auszuwerten. Trotz Rückschlägen
+          entwickelten wir neue Lösungen nach dem Prinzip: "Just do it, break it, and step up". Innerhalb dieser kurzen
+          Zeit haben wir viel Neues gelernt und den Wert praktischer Erfahrung direkt erlebt.
+        </p>
+        <h2 class="mt-2" id="ein-grossartiges-erlebnis-unser-fazit">Ein großartiges Erlebnis: Unser Fazit</h2>
+        <p>
+          Wir möchten uns herzlich für die Zusammenarbeit mit Mitschülerinnen und Mitschülern, Lehrkräften sowie anderen
+          Unterstützern bedanken. Den Zusammenhalt und den gemeinsamen Prozess schätzen wir sehr. Durch dieses Projekt
+          konnten wir wertvolle Erfahrungen für unsere zukünftige Arbeitsweise und das Leben sammeln. Schulfrage.de wird
+          uns stets als bedeutende Erfahrung in Erinnerung bleiben und als Beispiel dafür, wie es ist, ein eigenes
+          Projekt erfolgreich auf die Beine zu stellen.
+        </p>
+      </div>
+      <!-- Documentation End -->
+
+      <!-- Footer -->
+      <div
+        class="mx-auto flex w-full max-w-[1400px] flex-col items-center justify-between gap-3 rounded-xl bg-[#FFB300] p-3 sm:flex-row md:p-4"
+      >
+        <img width="113px" height="22px" src="./assets/logo.png" class="h-[22px] w-[113px]" alt="Logo" />
+        <div class="flex gap-3">
+          <a href="imprint.html" class="hover:underline">Impressum</a>
+          <a href="privacy.html" class="hover:underline">Datenschutzerklärung</a>
+        </div>
+      </div>
+      <!-- Footer End -->
+    </div>
+  </body>
+</html>
